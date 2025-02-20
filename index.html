@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthy Delicious Food</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <!--navbar-->
+    <nav class="navbar">
+        <div class="logo">
+            Mealify<span>.</span>
+        </div>
+        <div class="nav-links">
+            <a href="#">Home</a>
+            <a href="#">Chefs</a>
+            <a href="#">Gallery</a>
+            <a href="#">Contact</a>
+        </div>
+        <div class="dark-mode-toggle" onclick="toggleDarkMode()">🌙</div>
+    </nav>
+    <!--section header-->
+    <section class="header">
+        <div class="container">
+            <div class="header-text">
+                <h1>Enjoy Your Healthy Delicious Food</h1>
+                <p>
+                    Sed autem laudantium dolores. Voluptatem itaque ea consequatur eveniet. Eum quas beatae cumque eum quaerat.
+                </p>
+                <div class="buttons">
+                    <button class="button">Book a Table</button>
+                    <div class="icon">
+                        <span><i class="fa-solid fa-play"></i></span>
+                        <a href="#">Watch a Video</a>
+                    </div>
+                </div>
+            </div>
+            <div class="header-image">
+                <img src="imges/hero-img.png" alt="header-image">
+            </div>
+        </div>
+    </section>
+    <!--section chefs-->
+    <section class="chefs" id="chefs">
+        <div class="main-title">
+            <p>Chefs</p>
+            <h2>our <span>proffesional</span> chefs</h1>
+        </div>
+        <div class="container">
+            <div class="chefs-cards">
+                <div class="card">
+                    <div class="img-container">
+                        <img src="imges/chefs/chefs-1.jpg" alt="chef">
+                    </div>
+                    <div class="items-text">
+                        <h3>Walter white</h3>
+                        <p class="title">Master Chef</p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
+                            assumenda cupiditate culpa quidem ratione, perspiciatis, fuga ea
+                            pariatur nam excepturi numquam ipsa incidunt, hic nostrum
+                            consectetur quibusdam veritatis odit vel?
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img-container">
+                        <img src="imges/chefs/chefs-2.jpg" alt="chef">
+                    </div>
+                    <div class="items-text">
+                        <h3>Sarah Jhonson</h3>
+                        <p class="title">Patissier</p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
+                            assumenda cupiditate culpa quidem ratione, perspiciatis, fuga ea
+                            pariatur nam excepturi numquam ipsa incidunt, hic nostrum
+                            consectetur quibusdam veritatis odit vel?
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img-container">
+                        <img src="imges/chefs/chefs-3.jpg" alt="chef">
+                    </div>
+                    <div class="items-text">
+                        <h3>William Anderson</h3>
+                        <p class="title">Cook</p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
+                            assumenda cupiditate culpa quidem ratione, perspiciatis, fuga ea
+                            pariatur nam excepturi numquam ipsa incidunt, hic nostrum
+                            consectetur quibusdam veritatis odit vel?
+                        </p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <!--section contact-->
+    <section class="contact">
+        <div class="main-title">
+            <p>contact</p>
+            <h2>need help? <span class="highlight">contact us</span></h1>
+        </div>
+        <div class="container">
+            <div class="card-contact">
+                <div class="card">
+                    <div class="icon"><i class="fa-solid fa-map"></i></div>
+                    <div class="info">
+                        <p class="title">Our Address</p>
+                        <p class="details">A108 Adam Street, New York, NY 535022</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="icon"><i class="fa-regular fa-envelope"></i></div>
+                    <div class="info">
+                        <p class="title">Email Us</p>
+                        <p class="details">minakadiswadie@gmail.com</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="icon"><i class="fa-solid fa-phone"></i></div>
+                    <div class="info">
+                        <p class="title">Call us</p>
+                        <p class="details">+010000000</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="icon"><i class="fa-solid fa-door-open"></i></div>
+                    <div class="info">
+                        <p class="title">Opening Hours</p>
+                        <p class="details"><span>Mon-Sat:</span> 11AM - 23PM; <span>Sunday :</span> Closed</p>
+                    </div>
+                </div>
+            </div>
+            <form action="">
+                <div class="form-group">
+                    <input type="text" placeholder="Your Name"> 
+                    <input type="email" placeholder="Your Email">
+                </div>
+                <input type="text" placeholder="Subject">   
+                <textarea name="" id="" cols="30" rows="10" placeholder="Massage"></textarea>
+                <div class="button-container">
+                    <button class="button">Send Message</button>
+                </div>
+            </form>
+        </div>     
+    </section>
+    <!--section footer-->
+    <section class="footer">
+        <div class="container">
+            <div class="card-footer">
+                <div class="logo-footer">
+                    <img src="imges/favicon.png" alt="Mealify">
+                    <span class="title-footer">Mealify</span>
+                    <p>
+                        Mealify is a restaurant landing page that offers a delicious dining experience to its customers.
+                    </p>
+                </div>
+                <div class="social-media">
+                    <h1>Social Media</h1>
+                    <ul>
+                        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card-footer">
+                <h3>Subscribe our Newsletter</h3>
+                <p>
+                    Don't miss out on our latest menu updates and exclusive offers - join our newsletter today and stay up-to-date with all things Mealify!
+                </p>
+                <div class="form">
+                    <input type="email" placeholder="Enter your email">
+                    <button class="button-footer"><i class="fa-solid fa-envelope"></i> Subscribe</button>
+                </div>
+                <h4>Quick Links</h4>
+                <div class="menu">
+                    <ul>
+                        <li><i class="fa-solid fa-angle-right"></i> Menu</li>
+                        <li><i class="fa-solid fa-angle-right"></i> About Us</li>
+                        <li><i class="fa-solid fa-angle-right"></i> Testimonial</li>
+                        <li><i class="fa-solid fa-angle-right"></i> Promo</li>
+                        <li><i class="fa-solid fa-angle-right"></i> Contact</li>
+                        <li><i class="fa-solid fa-angle-right"></i> Our Partners</li>
+                    </ul>
+                    
+                </div>
+            </div>
+            <div class="touch">
+                <h3>Get in Touch</h3>
+                <div class="info">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p>A108 Adam Street, New York, NY 535022</p>
+                </div>
+                <div class="info">
+                    <i class="fa-solid fa-envelope"></i> 
+                    <p>contact@example.com</p>
+                </div>
+                <div class="info">
+                    <i class="fa-solid fa-phone"></i>
+                    <p>+1 5589 55488 55</p>
+                </div>
+            </div>
+        </div>
+        <div class="copy-right">
+            <h3>Made By With <a href="#">Rnaya Mohamed</a></h3>
+        </div>
+    </section>
+</body>
+</html>
