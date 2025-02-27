@@ -592,3 +592,144 @@ body.dark-mode {
 .footer .copy-right a:hover{
     color: var(--colo-primary);
 }
+
+@media only screen and (max-width: 768px) {
+
+    /* Navbar */
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+        background-color: #fff;
+        box-sizing: border-box;
+        width: 100%;
+        border: 2px solid #000; 
+    }
+
+    .logo {
+        font-size: 20px;
+        font-weight: bold;
+        color: #000;
+        margin: 0;
+        flex: 1;
+    }
+
+    .nav-links {
+        display: grid;
+        grid-template-columns: repeat(2, auto); 
+        gap: 5px 20px; 
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        flex: 2;
+    }
+
+    .nav-links a {
+        color: #000;
+        text-decoration: none;
+        font-size: 16px;
+        transition: color 0.3s, transform 0.3s;
+    }
+
+    .nav-links a:hover {
+        color: #f00;
+        transform: scale(1.1);
+    }
+
+    .dark-mood {
+        font-size: 30px;
+        cursor: pointer;
+        flex: 1;
+        text-align: right;
+        transition: transform 0.3s;
+    }
+
+    .dark-mood:hover {
+        transform: rotate(20deg);
+    }
+
+    body, html {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+    /* Header */
+    .header {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .header .header-text h1 {
+        font-size: 24px;
+        margin: 10px 0;
+    }
+
+    .header .header-text p {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+
+    .header .header-image img {
+        width: 230px;
+        height: 230px;
+        margin: 20px 0;
+    }
+
+    .buttons {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin: 10px 0;
+    }
+
+    /* section chefs */
+    .chefs .chefs-cards {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        margin: 20px;
+    }
+
+    /* contact cards */
+    .contact .card-contact .card {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    /* جعل الفورم عرض كامل */
+    .contact .form-group input {
+        width: 100%;
+    }
+
+    /* footer */
+    .footer .container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .footer .touch {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .footer .touch .info {
+        flex-direction: row;
+        gap: 5px;
+    }
+
+    .footer .touch .info i {
+        padding: 8px;
+        font-size: 16px;
+    }
+
+    .footer .touch .info p {
+        font-size: 14px;
+        line-height: 1.4;
+    }
+}
+
